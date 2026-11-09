@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS site_lead_event (
+  EVENT_ID varchar(64) NOT NULL,
+  RECEIVED_AT datetime NOT NULL,
+  PRIMARY KEY (EVENT_ID)
+);

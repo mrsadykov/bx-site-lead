@@ -1,0 +1,17 @@
+{
+  "name": "site/lead",
+  "description": "Приём откликов с сайта в CRM коробочного Битрикса.",
+  "require-dev": {
+    "phpunit/phpunit": "11.5.46"
+  },
+  "autoload": {
+    "psr-4": {
+      "Site\\Lead\\": "local/modules/site.lead/lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Site\\Lead\\Tests\\": "tests/"
+    }
+  }
+}
